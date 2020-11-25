@@ -1,4 +1,4 @@
-# Arduino *Simple**FOC**Shield* *v1.3.3*
+# Arduino *Simple**FOC**Shield* *v2.0*
 
 This is an open-source low-cost Brushless DC (BLDC) motor driver board intended primarily for low-power FOC applications up to 5Amps. The board is fully compatible with the Arduino UNO and all the boards with the standard Arduino headers. The *Simple**FOC**Shield*, in combination with the *Simple**FOC**library* provides user-friendly way to control BLDC motors both in hardware and software.
 
@@ -12,16 +12,19 @@ This is an open-source low-cost Brushless DC (BLDC) motor driver board intended 
 - **Max power 120W** - max current 5A, power-supply 12-24V
    - Designed for Gimbal motors with the internal resistance >10 Ωs. 
 - **Stackable**: running 2 motors in the same time
-- **Encoder?Hall sensors interface**: Integrated 3.3kΩ pullups (configurable)
+- **Encoder/Hall sensors interface**: Integrated 3.3kΩ pullups (configurable)
 - **I2C interface**: Integrated 4.7kΩ pullups (configurable)
 - **Configurable pinout**: Hardware configuration - soldering connections
 - **Arduino headers**: Arduino UNO, Arduino MEGA, STM32 Nucleo boards...
 - **Open Source**: Fully available fabrication files - [how to make it yourself](https://docs.simplefoc.com/arduino_simplefoc_shield_fabrication)
 
 ### New Features 
-- **Full standard arduino headers**: 6pin + 2x8pin + 10 pin
-- **L6234 circuit change**: by <i>@MrAndersen</i> [community link](https://community.simplefoc.com/t/simplefocshield-schematic-c4-capacitor/193)
-- **SMT Assembly**: Board fully compatible with JLCPCB smt assembly. You can order it fully assembled from their website - everything except the headers and terminals.
+- **In-line Current sensing** 
+   - Up to 3Amps bi-directional
+   - Real FOC torque control
+- New pinout for hardware config
+- Still optimised for ordering from JLCPCB
+
 
 ### Short YouTube demonstration video :D
 <p align="">
